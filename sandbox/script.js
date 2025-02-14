@@ -48,3 +48,20 @@ console.log(n1);
 
 console.log(parseFloat("40.12Ae"));
 console.log("40.12Ae");
+
+// Condicionais
+let idade = 18;
+
+if (idade2 < 18) {
+
+    console.log("Menor de idade");
+
+} else if (idade2 === 18) {
+
+    console.log("Acabou de atingir a maioridade");
+
+} else {
+
+    console.log("Maior de idade");
+
+}
