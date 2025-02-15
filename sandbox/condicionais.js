@@ -58,35 +58,134 @@
 
 // }
 
-// Exercício 5
-const numA = parseFloat(prompt("Digite três números:"));
-const numB = parseFloat(prompt("Digite três números:"));
-const numC = parseFloat(prompt("Digite três números:"));
+// INTERMEDIÁRIO
+// Exercício 1
+// let num1 = parseFloat(prompt("Digite um número:"));
+// let num2 = parseFloat(prompt("Digite outro número:"));
+// let operacao = prompt("Digite uma operacao. Ex: +, -, *, /:");
 
-let maior = numA
+// switch (operacao) {
+//     case "+":
 
-if (numB > maior) {
+//         let resultadoSoma = num1 + num2;
+//         console.log("resultado", resultadoSoma);
 
-    maior = numB
+//         break;
+       
+//     case "-":
 
-} if (numC > maior) {
+//         let resultadoSubtracao = num1 - num2;
+//         console.log("resultado", resultadoSubtracao);
 
-    maior =numC
+//         break;
 
-}
+//     case "*":
 
-    console.log({maior});
+//         let resultadoMultiplicacao = num1 * num2;
+//         console.log("resultado", resultadoMultiplicacao);
+
+//         break;
+
+//      case "/":
+
+//         let resultadoDivisao = num1 / num2;
+//         console.log("resultado", resultadoDivisao);
+
+//         break;
+
+//     default:
+
+//        console.log("Operador inválido.")
+
+//         break;
+// }
+
+// Exercício 2
+// const numA = parseFloat(prompt("Digite três números:"));
+// const numB = parseFloat(prompt("Digite três números:"));
+// const numC = parseFloat(prompt("Digite três números:"));
+
+// let maior = numA
+
+// if (numB > maior) {
+
+//     maior = numB
+
+// } if (numC > maior) {
+
+//     maior =numC
+
+// }
+
+//     console.log({maior});
 
 
-    // Exercício 2
-let compra = prompt("Digite o valor da compra:");
+// Exercício 3
+// let compra = prompt("Digite o valor da compra:");
 
-if (compra > 100) {
+// if (compra > 100) {
 
-    console.log(compra * 10/100);
+//     console.log(compra *0.9);
+
+// } else {
+
+//     console.log(compra);
+
+// }
+
+// Exercício 7
+// let nota = parseFloat(prompt("Digite uma nota:"));
+
+// if (nota >= 90 && nota <= 100) {
+
+//     console.log("A")
+    
+
+// } else if (nota >= 80 && nota <= 89) {
+
+//     console.log("B")
+
+// } else if (nota >= 70 && nota <= 79) {
+
+//     console.log("C")
+
+// } else if (nota >= 60 && nota <= 69) {
+
+//     console.log("D")
+
+// } else if (nota <= 60) {
+
+//     console.log("E")
+
+// }
+
+// Exercício 8
+// let ano = prompt("Digite um ano:");
+
+// if (ano % 4 == 0 ) {
+
+//     console.log("Bissexto.");
+
+// } else if (ano % 400 == 0) {
+
+//     console.log("Bissexto.");
+
+// } else {
+
+//     console.log("Não é Bissexto.");
+
+// }
+
+// // Exercício 9
+let usuario = prompt("Digite seu nome de usuario:");
+let senha = prompt("Digite sua senha:");
+
+if (usuario == "admin" && senha == "1234") {
+
+    console.log("Login bem-sucedido.");
 
 } else {
 
-    console.log("É ímpar.");
+    console.log("Acesso negado.");
 
 }
