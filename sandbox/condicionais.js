@@ -1,3 +1,4 @@
+// BASICO
 // Exercício 1
 // let num = prompt("Digite um número:");
 
@@ -101,9 +102,9 @@
 // }
 
 // Exercício 2
-// const numA = parseFloat(prompt("Digite três números:"));
-// const numB = parseFloat(prompt("Digite três números:"));
-// const numC = parseFloat(prompt("Digite três números:"));
+// const numA = parseFloat(prompt("Digite um números:"));
+// const numB = parseFloat(prompt("Digite um números:"));
+// const numC = parseFloat(prompt("Digite um números:"));
 
 // let maior = numA
 
@@ -133,7 +134,22 @@
 
 // }
 
-// Exercício 7
+// // Exercício 4
+// let usuario = prompt("Digite seu nome de usuario:");
+// let senha = prompt("Digite sua senha:");
+
+// if (usuario == "admin" && senha == "1234") {
+
+//     console.log("Login bem-sucedido.");
+
+// } else {
+
+//     console.log("Acesso negado.");
+
+// }
+
+// AVANÇADO
+// Exercício 2
 // let nota = parseFloat(prompt("Digite uma nota:"));
 
 // if (nota >= 90 && nota <= 100) {
@@ -159,7 +175,7 @@
 
 // }
 
-// Exercício 8
+// Exercício do Ano Bissexto
 // let ano = prompt("Digite um ano:");
 
 // if (ano % 4 == 0 ) {
@@ -175,17 +191,3 @@
 //     console.log("Não é Bissexto.");
 
 // }
-
-// // Exercício 9
-let usuario = prompt("Digite seu nome de usuario:");
-let senha = prompt("Digite sua senha:");
-
-if (usuario == "admin" && senha == "1234") {
-
-    console.log("Login bem-sucedido.");
-
-} else {
-
-    console.log("Acesso negado.");
-
-}
