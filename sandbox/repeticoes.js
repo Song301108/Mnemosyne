@@ -13,13 +13,26 @@
 // }
 
 
+// BÁSICO
+// EXERCÍCIO 1
 
+function exercicioRep01 () {
 
-// for(let contador = 1; contador <= 10; contador++){
+   for(let contador = 1; contador <= 10; contador++){
 
-//     console.log("Contagem: ", contador);
+      console.log("Contagem: ", contador);
 
-// }
+   }
+
+   let divDeLogs = document.querySelector(".logs");
+
+   let paragrafo = document.createElement("p");
+
+   paragrafo.innerHTML = "Exercício 01 de repetição executado, confira o console."
+
+   divDeLogs.appendChild(paragrafo);
+
+}
 
 // FOR 
 // for (let contador = 1; contador <= 1000); {
@@ -50,21 +63,30 @@
 // console.log("sair!")
 
 // EXERCÍCIO 2
-// let num = prompt("Insira um número: ");
 
-// for (let contador = 1; contador <= 10; contador++){
+function exercicioRep02 () {
+ 
+ let num = prompt("Insira um número: ");
 
-//     let valorCalculado = num * contador;
+   for (let contador = 1; contador <= 10; contador++){
 
-//     let mensagem = `${num} x ${contador} = ${valorCalculado}`;
+    let valorCalculado = num * contador;
 
-//     console.log(mensagem);
+    let mensagem = `${num} x ${contador} = ${valorCalculado}`;
 
-// }
+    console.log(mensagem);
 
-let num2 = parseInt(prompt("Insira um número N: "));
+   }
 
-for(let contador = 1; contador <= num2; contador++){
+}
+
+// EXERCÍCIO 3
+
+function exercicioRep03 () {
+
+  let num2 = parseInt(prompt("Insira um número N: "));
+
+  for(let contador = 1; contador <= num2; contador++){
 
     let valorCalculado = num2 + contador;
 
@@ -72,4 +94,62 @@ for(let contador = 1; contador <= num2; contador++){
     
     console.log(mensagem);
    
+  }
+
 }
+
+// INTERMEDIÁRIO
+// EXERCÍCIO 1
+
+function exercicioRepInter01 () {
+
+  for (let contador = 1; contador <= 50; contador++){
+
+    if (contador % 2 == 0)
+
+      console.log(contador);
+
+  }
+
+}
+
+// EXERCÍCIO 2
+
+function exercicioRepInter02 () {
+  let numeroAleatorio = Math.floor(Math.random() * 100);
+
+  let chute = null;
+
+ while (chute != numeroAleatorio) {
+
+    chute = parseInt(prompt("Chute um número:"));
+
+    if (chute != numeroAleatorio) {
+
+        if (chute > numeroAleatorio) {
+    
+            alert("Chutou alto.");
+    
+        } else {
+    
+            alert("Chutou baixo.");
+    
+        }
+
+    }
+
+ }
+
+}
+
+// EXERCÍCIO 3
+// let contador = null;
+
+// while (contador > 0) {
+
+//     contador = parseInt(prompt("Insira um número maior que zero:"));
+
+//     for (let contador ; contador > 0; contador--)
+
+    
+// } 
