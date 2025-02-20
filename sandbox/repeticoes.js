@@ -16,23 +16,23 @@
 // BÁSICO
 // EXERCÍCIO 1
 
-function exercicioRep01 () {
+// function exercicioRep01 () {
 
-   for(let contador = 1; contador <= 10; contador++){
+//    for(let contador = 1; contador <= 10; contador++){
 
-      console.log("Contagem: ", contador);
+//       console.log("Contagem: ", contador);
 
-   }
+//    }
 
-   let divDeLogs = document.querySelector(".logs");
+//    let divDeLogs = document.querySelector(".logs");
 
-   let paragrafo = document.createElement("p");
+//    let paragrafo = document.createElement("p");
 
-   paragrafo.innerHTML = "Exercício 01 de repetição executado, confira o console."
+//    paragrafo.innerHTML = "Exercício 01 de repetição executado, confira o console."
 
-   divDeLogs.appendChild(paragrafo);
+//    divDeLogs.appendChild(paragrafo);
 
-}
+// }
 
 // FOR 
 // for (let contador = 1; contador <= 1000); {
@@ -64,92 +64,92 @@ function exercicioRep01 () {
 
 // EXERCÍCIO 2
 
-function exercicioRep02 () {
+// function exercicioRep02 () {
  
- let num = prompt("Insira um número: ");
+//  let num = prompt("Insira um número: ");
 
-   for (let contador = 1; contador <= 10; contador++){
+//    for (let contador = 1; contador <= 10; contador++){
 
-    let valorCalculado = num * contador;
+//     let valorCalculado = num * contador;
 
-    let mensagem = `${num} x ${contador} = ${valorCalculado}`;
+//     let mensagem = `${num} x ${contador} = ${valorCalculado}`;
 
-    console.log(mensagem);
+//     console.log(mensagem);
 
-   }
+//    }
 
-}
+// }
 
 // EXERCÍCIO 3
 
-function exercicioRep03 () {
+// function exercicioRep03 () {
 
-  let num2 = parseInt(prompt("Insira um número N: "));
+//   let num2 = parseInt(prompt("Insira um número N: "));
 
-  for(let contador = 1; contador <= num2; contador++){
+//   for(let contador = 1; contador <= num2; contador++){
 
-    let valorCalculado = num2 + contador;
+//     let valorCalculado = num2 + contador;
 
-    let mensagem = `${num2} + ${contador} = ${valorCalculado}`;
+//     let mensagem = `${num2} + ${contador} = ${valorCalculado}`;
     
-    console.log(mensagem);
+//     console.log(mensagem);
    
-  }
+//   }
 
-}
+// }
 
 // INTERMEDIÁRIO
 // EXERCÍCIO 1
 
-function exercicioRepInter01 () {
+// function exercicioRepInter01 () {
 
-  for (let contador = 1; contador <= 50; contador++){
+//   for (let contador = 1; contador <= 50; contador++){
 
-    if (contador % 2 == 0)
+//     if (contador % 2 == 0)
 
-      console.log(contador);
+//       console.log(contador);
 
-  }
+//   }
 
-}
+// }
 
-// EXERCÍCIO 2
+// // EXERCÍCIO 2
 
-function exercicioRepInter02 () {
-  let numeroAleatorio = Math.floor(Math.random() * 100);
+// function exercicioRepInter02 () {
+//   let numeroAleatorio = Math.floor(Math.random() * 100);
 
-  let chute = null;
+//   let chute = null;
 
- while (chute != numeroAleatorio) {
+//  while (chute != numeroAleatorio) {
 
-    chute = parseInt(prompt("Chute um número:"));
+//     chute = parseInt(prompt("Chute um número:"));
 
-    if (chute != numeroAleatorio) {
+//     if (chute != numeroAleatorio) {
 
-        if (chute > numeroAleatorio) {
+//         if (chute > numeroAleatorio) {
     
-            alert("Chutou alto.");
+//             alert("Chutou alto.");
     
-        } else {
+//         } else {
     
-            alert("Chutou baixo.");
+//             alert("Chutou baixo.");
     
-        }
+//         }
 
-    }
+//     }
 
- }
+//  }
 
-}
+// }
 
 // EXERCÍCIO 3
 // let contador = null;
 
 // while (contador > 0) {
 
-//     contador = parseInt(prompt("Insira um número maior que zero:"));
+//    contador = parseInt(prompt("Insira um número maior que zero:"));
 
-//     for (let contador ; contador > 0; contador--)
+//    for (let contador ; contador > 0; contador--)
 
     
 // } 
