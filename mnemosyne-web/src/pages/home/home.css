@@ -8,6 +8,12 @@
 
 }
 
+.memories-container a {
+
+    text-decoration: none;
+
+}
+
 .memory-card {
 
     margin-right: 40px;
