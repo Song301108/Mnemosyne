@@ -11,6 +11,8 @@ const Home = () => {
 
         getMemoriesList();
 
+        document.title = "Tela Home";
+
     }, []);
 
     const getMemoriesList = async () => {
